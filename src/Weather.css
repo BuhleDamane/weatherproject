@@ -49,3 +49,14 @@
 .Weather .clearFix{
     padding: 0 30px;
 }
+form{
+    margin-bottom: 20px;
+}
+.input-search{
+    width: 300px;
+    height: 35px;
+}
+.btn{
+    width: 80px;
+    height: 35px;
+}
