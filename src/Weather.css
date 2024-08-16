@@ -35,19 +35,20 @@
     color: rgb(55, 55, 55);
     font-size: 60px;
     float: left;
-    line-height: 64px;
+    line-height: 95px;
 }
 .Weather .unit{
     position: relative;
     font-weight: 400;
     font-size: 16px;
+    line-height: 60px;
 }
 .Weather img{
     float: left;
-    margin-right: 5px;
+    margin-right: -10px;
 }
 .Weather .clearFix{
-    padding: 0 30px;
+  
 }
 form{
     margin-bottom: 20px;
