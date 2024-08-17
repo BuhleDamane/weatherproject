@@ -43,9 +43,11 @@
     font-size: 16px;
     line-height: 60px;
 }
-.Weather img{
+.WeatherIcon{
     float: left;
-    margin-right: -10px;
+    width: 30%;
+    margin-right: 10px;
+    line-height: 100px;
 }
 
 form{
