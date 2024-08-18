@@ -2,6 +2,7 @@ import React, {useState} from "react";
 import axios from "axios";
 import './Weather.css'
 import WeatherInfo from "./WeatherInfo";
+import { Circles } from 'react-loader-spinner'
 
 
 
@@ -61,7 +62,17 @@ setCity(event.target.value);
 
     } else{
         search()
-       return "Loading....";
+       return (
+        <Circles
+  height="80"
+  width="80"
+  radius="9"
+  color="green"
+  ariaLabel="loading"
+  wrapperStyle
+  wrapperClass
+/>
+       );
     }
     
 }
