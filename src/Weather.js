@@ -62,16 +62,19 @@ setCity(event.target.value);
 
     } else{
         search()
-       return (
-        <Circles
+       return(
+ <div className="loader">     
+        
+  <Circles
   height="80"
   width="80"
-  radius="9"
-  color="green"
-  ariaLabel="loading"
-  wrapperStyle
-  wrapperClass
-/>
+  color="#4fa94d"
+  ariaLabel="circles-loading"
+  wrapperStyle={{}}
+  wrapperClass=""
+  visible={true}
+  />
+  </div>  
        );
     }
     
